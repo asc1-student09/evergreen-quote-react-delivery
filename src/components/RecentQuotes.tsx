@@ -19,7 +19,7 @@ function RecentQuotes({ quotes }: RecentQuotesProps) {
       <ul className="recent-list">
         {quotes.map((quote) => (
           <li key={quote.id}>
-            <span className="quote-type">{quote.coverage}</span> -{" "}
+            <span className="quote-type">{quote.type}</span> -{" "}
             <span className="quote-premium">
               {formatCurrency(quote.monthlyPremium)}/mo
             </span>
