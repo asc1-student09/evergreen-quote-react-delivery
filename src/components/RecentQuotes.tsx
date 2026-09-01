@@ -6,12 +6,12 @@
 import { formatCurrency } from "../premium";
 import { useQuotes } from "../context/QuotesContext";
 
-function RecentQuotes() {
+function RecentQuotes({ heading = "Recent quotes" }: RecentQuotesProps) {
   const { quotes, loading, error } = useQuotes();
 
   return (
     <aside className="recent-quotes">
-      <h2>Recent quotes</h2>
+      <h2>{heading}</h2>
       {loading && <p className="loading">Loading recent quotes…</p>}
       {error && <p className="message">{error}</p>}
       {!loading && !error && (

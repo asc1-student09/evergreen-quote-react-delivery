@@ -11,3 +11,5 @@
 ## How I'll use this register
 
 I will review the risk register at the beginning and end of each working session and before any pull request is opened. The register will be shared with stakeholders and used during daily check-ins to identify new risks, monitor existing risks, and determine when escalation is required.
+
+| R6 | A moderate-severity vulnerability identified in a development-time dependency could delay delivery or require an unplanned upgrade effort. | Delivery Lead | M | M | Monitor the platform team's scheduled upgrade, track remediation status, and verify the dependency is updated during the next maintenance window. | Severity increases, additional vulnerabilities are identified, or the planned upgrade is delayed. |

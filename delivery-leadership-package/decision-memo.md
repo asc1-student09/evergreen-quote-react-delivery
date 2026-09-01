@@ -37,3 +37,51 @@ The most important consideration was delivering a complete, working product that
 ## What would change my mind
 
 If additional time were available after all required deliverables were completed and validated, I would revisit optional enhancements to gain additional technical experience and explore further improvements to the application.
+
+---
+
+# Inject #1 Decision: ZIP-Code Request and Dependency Audit
+
+## Context
+
+During the afternoon of Day 2, Marketing requested that a ZIP-code field be added to the quote form to support a regional pricing A/B test. At the same time, a dependency audit identified a moderate-severity issue in a development-time build tool. The delivery goal remained unchanged: deliver an assembled, typed, data-loading application with a successful build and merge process.
+
+## Options considered
+
+### Option A: Add the ZIP-code field this week
+
+**Pros**
+- Supports Marketing's regional pricing initiative.
+- Provides additional business value.
+
+**Cons**
+- Introduces new scope late in the delivery cycle.
+- Requires additional validation and testing efforts.
+- May impact delivery readiness and schedule commitments.
+
+### Option B: Defer the ZIP-code field to a future iteration
+
+**Pros**
+- Protects the committed delivery goal.
+- Maintains focus on completing required deliverables.
+- Reduces schedule and quality risk.
+
+**Cons**
+- Delays Marketing's requested enhancement.
+
+## Recommendation
+
+I recommend deferring the ZIP-code enhancement to a future iteration. While the request appears simple, it introduces additional scope that could impact delivery readiness and the team's ability to achieve the committed delivery goal. If the enhancement is prioritized this week, time would need to be diverted from other planned activities.
+
+## Dependency Audit Recommendation
+
+I recommend proceeding with shipment this week. The dependency audit identified a moderate-severity issue in a development-time build tool that is not delivered to customers. The platform team has already scheduled the recommended upgrade for the next maintenance window, so the risk can be monitored while maintaining the current delivery schedule.
+
+## Why
+
+The priority remains delivering a complete, validated solution that satisfies the agreed-upon delivery objectives. Protecting the delivery commitment provides greater value than introducing additional scope late in the schedule.
+
+## What would change my mind
+
+If all planned delivery objectives were completed ahead of schedule and sufficient time remained for implementation, testing, and validation, I would revisit the ZIP-code enhancement request.
+`

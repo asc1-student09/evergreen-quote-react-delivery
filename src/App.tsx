@@ -37,7 +37,7 @@ function App() {
             }
         <section className="quote-form-section">
           <QuoteForm />
-          <RecentQuotes />
+          <RecentQuotes heading="Latest quotes" />
         </section>
               </main>
 
