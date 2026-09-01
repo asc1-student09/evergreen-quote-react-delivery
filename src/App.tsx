@@ -7,7 +7,6 @@ import QuoteForm from "./components/QuoteForm";
 import RecentQuotes from "./components/RecentQuotes";
 import { QuotesProvider } from "./context/QuotesContext";
 
-
 // The product title is configured through an environment variable, not code.
 // You set the real value in .env on Day 2. Watch the browser tab change.
 const APP_TITLE =
@@ -16,6 +15,7 @@ document.title = APP_TITLE;
 
 function App() {
   return (
+ 
     <QuotesProvider> 
       <header className="site-header">
         <div className="brand">Evergreen Insurance</div>
@@ -25,6 +25,12 @@ function App() {
           <a href="#">About</a>
         </nav>
       </header>
+
+      <div className="rolling-banner">
+    <span>
+    Patty Mengi FSE Capstone Project | First CI/CD Pipeline Successfully Deployed | Added Renters Coverage | React | TypeScript | GitHub Actions | GitHub Pages
+    </span>
+</div>
 
       <main className="page">
         <section className="hero">
