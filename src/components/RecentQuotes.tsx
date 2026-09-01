@@ -6,6 +6,10 @@
 import { formatCurrency } from "../premium";
 import { useQuotes } from "../context/QuotesContext";
 
+interface RecentQuotesProps {
+  heading?: string;
+}
+
 function RecentQuotes({ heading = "Recent quotes" }: RecentQuotesProps) {
   const { quotes, loading, error } = useQuotes();
 
