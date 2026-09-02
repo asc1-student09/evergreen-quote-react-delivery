@@ -1,0 +1,5 @@
+# GitHub Copilot Review
+
+I used GitHub Copilot to add two new records to the `public/quotes.json` file. Copilot correctly identified the existing JSON structure and generated realistic insurance quote entries that matched the schema. The suggested values were reasonable and required minimal modification. The tool helped speed up a simple assembly task by generating content that followed the existing pattern.
+
+However, I would not deploy the output without reviewing it first. While Copilot was effective at recognizing patterns, it does not understand business rules or data quality requirements. I still needed to verify that the records used unique IDs and contained sensible values. Type checking would not necessarily catch issues such as duplicate identifiers or unrealistic business data because the data could still conform to the expected structure. Overall, Copilot improved productivity and reduced manual effort, but human review remains an important part of the development process.
