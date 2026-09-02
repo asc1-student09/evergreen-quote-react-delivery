@@ -3,7 +3,7 @@
 // loading / error / success states still show; they just come from the
 // provider, which owns the data. Saved quotes appear at the top instantly.
 // You drop it in; you don't modify it.
-import React from "react";
+
 import { formatCurrency } from "../premium";
 import { useQuotes } from "../context/QuotesContext";
 
