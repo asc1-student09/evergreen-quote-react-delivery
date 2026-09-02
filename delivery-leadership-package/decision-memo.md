@@ -84,4 +84,53 @@ The priority remains delivering a complete, validated solution that satisfies th
 ## What would change my mind
 
 If all planned delivery objectives were completed ahead of schedule and sufficient time remained for implementation, testing, and validation, I would revisit the ZIP-code enhancement request.
-`
+
+---
+
+# Inject #2 Decision: Renters Pricing Incident and CI Failure
+
+## Context
+
+On Day 3, the team received reports of two issues requiring immediate attention. A customer reported receiving a renters quote of $8,950 per month for $25,000 of coverage, which Customer Success was able to reproduce. At the same time, the CI pipeline on the main branch began failing following a renters-rate hotfix due to a missing required asset file.
+
+The primary question was whether to continue focusing on delivery and release activities or temporarily shift effort toward incident investigation and validation activities.
+
+## Options considered
+
+### Option A: Continue planned delivery activities
+
+**Pros**
+- Maintains project momentum.
+- Preserves scheduled delivery activities.
+
+**Cons**
+- Customer-impacting issues may remain unresolved.
+- Release readiness may be reduced if CI remains unhealthy.
+- Increases risk of deploying with known concerns.
+
+### Option B: Temporarily prioritize investigation and validation
+
+**Pros**
+- Addresses potential customer impact.
+- Improves confidence in release readiness.
+- Supports informed Go/No-Go decision making.
+
+**Cons**
+- Temporary shift away from planned delivery activities.
+- Additional time spent on risk assessment and validation.
+
+## Recommendation
+
+I recommend Option B. Customer-facing issues and release validation concerns should be investigated before proceeding with release decisions. The team should prioritize understanding the pricing issue, validating configuration changes, reviewing CI failures, and communicating status to stakeholders.
+
+## Why
+
+Protecting customer experience and release quality takes priority over maintaining the original task sequence. A short delay to investigate potential customer impact is preferable to releasing functionality that may contain pricing or configuration issues.
+
+## Outcome
+
+The team created investigation, validation, and stakeholder communication work items, assessed release risk, and reviewed the impact of the incident scenarios. Following successful validation, CI review, and build verification, the project remained on track and ultimately achieved its delivery objectives.
+
+## What would change my mind
+
+If investigation activities revealed no customer impact and CI health could be immediately validated, the team could resume planned delivery activities without re-prioritization.

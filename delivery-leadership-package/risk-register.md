@@ -7,6 +7,8 @@
 | R3 | The recent quotes data feed (`quotes.json`) becomes unavailable or is incorrectly configured, preventing quote data from loading. | Delivery Lead | M | M | Verify the file exists in the `public` folder and test loading, error, and recovery scenarios. | Recent Quotes panel displays an error message during validation testing. |
 | R4 | CI workflow fails because changes are merged without validating type-check or build status. | Delivery Lead | L | H | Require a successful GitHub Actions run before merging any pull request. | CI workflow returns a failed status. |
 | R5 | Last-minute changes introduce defects that are not identified before the production build. | Delivery Lead | M | H | Run a full production build and verify application functionality before opening the PR. | `npm run build` fails or the application behaves unexpectedly after changes. |
+| R6 | A moderate-severity vulnerability identified in a development-time dependency could delay delivery or require an unplanned upgrade effort. | Delivery Lead | M | M | Monitor the platform team's scheduled upgrade, track remediation status, and verify the dependency is updated during the next maintenance window. | Severity increases, additional vulnerabilities are identified, or the planned upgrade is delayed. |
+| R7 | Configuration or rate changes introduce customer-facing pricing errors, resulting in incorrect premium calculations and potential customer impact. | Delivery Lead | M | H | Validate rate changes through testing, review quote calculation outputs, use TypeScript validation and CI checks, and verify expected pricing scenarios before release. | Customer reports unrealistic premium amounts or validation testing identifies pricing discrepancies. |
 
 ## How I'll use this register
 

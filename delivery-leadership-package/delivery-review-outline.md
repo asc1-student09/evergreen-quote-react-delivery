@@ -1,97 +1,117 @@
-# Delivery Review Outline
+I would tighten the entire outline so it tells a leadership + technical growth story and highlights everything you accomplished beyond the minimum requirements.
 
-## Slide 1: Delivery Goal & Outcome
+Delivery Review Outline
+Slide 1: Delivery Goal & Outcome
+Delivery Goal
 
-### Delivery Goal
-By Thursday end of day, the Evergreen Quote React application would be assembled, validated through type checking and CI, merged to the main branch through a reviewed pull request, and ready for delivery review.
+By Thursday EOD, deliver a production-ready Evergreen Quote React application that is assembled, validated through TypeScript and CI, merged to the main branch through a reviewed pull request, and supported by a complete delivery leadership package.
 
-### Outcome
-✅ Goal achieved
+Outcome
 
-- Application assembled and running successfully
-- CI workflow passing
-- Production build passing
-- Pull request reviewed and merged to main
-- Delivery artifacts completed
+✅ Goal Achieved
 
----
+Application assembled and running successfully
+TypeScript validation passing
+GitHub Actions CI pipeline passing
+Production build passing
+Pull request reviewed and merged to main
+Delivery leadership artifacts completed
+Successfully deployed using GitHub Actions and GitHub Pages
+Completed all optional challenges beyond project requirements
+Slide 2: What Shipped
+Core Features Delivered
+React component assembly completed
+Premium calculation functionality enabled
+Product title and sponsor rates configured
+Recent Quotes data feed integrated
+Save Quote functionality enabled through Context Provider
+GitHub Actions CI workflow enabled
+Production-ready application successfully delivered
+Beyond the Requirements
 
-## Slide 2: What Shipped
+✅ Completed all optional challenges
 
-### Features Delivered
+✅ Added Renters coverage end-to-end:
 
-- React component assembly completed
-- Premium calculation functionality enabled
-- Product title and sponsor rates configured
-- Recent Quotes data feed integrated
-- Save Quote functionality enabled through context provider
-- GitHub Actions CI workflow enabled
+Type definitions
+Rate configuration
+UI updates
+Data integration
 
-### Quality Controls
+✅ Enhanced CI/CD pipeline
 
-- TypeScript validation passing
-- Production build validation passing
-- Pull request review completed
+✅ Successfully deployed application using GitHub Actions and GitHub Pages
 
----
+✅ Added custom project accomplishment banner highlighting:
 
-## Slide 3: Key Decisions
+Patty Mengi FSE Capstone Project | First CI/CD Pipeline Successfully Deployed | Added Renters Coverage | React | TypeScript | GitHub Actions | GitHub Pages
 
-### Decision 1
-Use the provided assembly approach rather than creating custom implementations.
+Quality Controls
+TypeScript validation passing
+CI workflow validation passing
+Production build validation passing
+Pull request review completed
+Slide 3: Key Decisions
+Decision 1: Follow the Assembly-First Approach
 
-**Why:** Reduced risk, aligned with project requirements, and ensured consistency with delivery expectations.
+Why: Reduced delivery risk, aligned with project requirements, and ensured consistent implementation using the provided artifacts.
 
-### Decision 2
-Treat TypeScript validation and CI results as release gates.
+Decision 2: Treat TypeScript and CI as Release Gates
 
-**Why:** Prevented defects from reaching production and provided objective quality validation.
+Why: Provided objective quality checks and prevented defects from progressing into later stages of delivery.
 
----
+Decision 3: Balance Leadership and Technical Growth
 
-## Slide 4: Risks and Inject Response
+Why: Completed all required delivery leadership artifacts while also pursuing every optional challenge to strengthen React, TypeScript, CI/CD, and deployment skills.
 
-### Key Risks
+Slide 4: Risks and Inject Response
+Key Risks
+TypeScript validation failures
+Data feed availability issues
+CI workflow failures
+Last-minute integration defects
+Customer-facing defects introduced through configuration changes
+Limited time available to investigate production incidents
+How Risks Were Managed
+Frequent TypeScript validation
+Incremental testing after each assembly step
+Production build verification
+Continuous CI monitoring
+GitHub Project Board tracking
+Formal risk assessment and documented decisions
+Inject #1 Response
+Evaluated stakeholder request for ZIP Code support
+Assessed delivery and scope impact
+Reviewed dependency audit findings
+Re-prioritized work to maintain delivery goals
+Inject #2 Response
+Responded to a customer-reported renters pricing issue
+Investigated a simulated CI failure involving renters assets
+Created investigation, validation, and stakeholder communication work items
+Evaluated a temporary No-Go scenario while assessing customer impact and release readiness
+Applied risk-based decision making before maintaining final release readiness
+Slide 5: Lessons Learned & Next Steps
+What Went Well
+Clear delivery vision and project plan
+Strong use of GitHub Projects for tracking
+CI/CD automation improved confidence in delivery quality
+TypeScript identified defects early
+Incremental assembly reduced implementation risk
+Successfully completed all optional challenges
+Successfully deployed using GitHub Actions and GitHub Pages
+What I Would Do Differently
+Complete leadership artifacts earlier in the week
+Review risks more proactively beginning on Day 1
+Build additional contingency time for stakeholder requests and incidents
+Establish release-readiness criteria earlier in the delivery cycle
+Key Takeaway
 
-- TypeScript validation failures
-- Data feed availability issues
-- CI workflow failures
-- Last-minute integration defects
-- Runtime issues not caught during assembly
+This capstone reinforced that successful delivery leadership requires balancing customer needs, technical quality, stakeholder communication, risk management, and team execution. While the project focused on leadership practices, completing all optional technical challenges provided valuable hands-on experience with React, TypeScript, CI/CD pipelines, GitHub Actions, and application deployment.
 
-### How Risks Were Managed
+Next Iteration
+Expand quote functionality
+Add additional coverage types
+Improve automated testing coverage
+Enhance reporting and analytics
+Strengthen release automation and deployment monitoring
 
-- Frequent type-check execution
-- Production build validation
-- CI workflow verification
-- Incremental testing after each assembly step
-
-### Inject Response
-
-- Re-prioritized work when new requirements emerged
-- Updated stakeholder communication
-- Focused on delivery-critical activities first
-
----
-
-## Slide 5: Lessons Learned & Next Steps
-
-### What Went Well
-
-- Clear delivery plan and task board
-- GitHub workflow and CI automation
-- Early detection of defects through TypeScript
-- Incremental assembly and testing approach
-
-### What I Would Do Differently
-
-- Complete leadership artifacts earlier in the week
-- Track risks more actively from Day 1
-- Schedule presentation preparation time sooner
-
-### Next Iteration
-
-- Expand quote functionality
-- Add additional coverage types
-- Improve automated testing coverage
-- Enhance user experience and reporting
