@@ -50,7 +50,7 @@ function RecentQuotes({ heading = "Recent quotes" }: RecentQuotesProps) {
       {/* Executive Summary Dashboard */}
       {!loading && !error && quotes.length > 0 && (
         <div className="dashboard-summary">
-          <h3>Executive Summary</h3>
+          <h3>Executive Portfolio Dashboard</h3>
           <div className="dashboard-cards">
             <div className="dashboard-card">
               <div className="card-label">Total Quotes</div>
@@ -67,7 +67,7 @@ function RecentQuotes({ heading = "Recent quotes" }: RecentQuotesProps) {
             <div className="dashboard-card">
               <div className="card-label">Most Common Type</div>
               <div className="card-value card-value-text">
-                {mostCommonType}
+                {mostCommonType.charAt(0).toUpperCase() + mostCommonType.slice(1)}
               </div>
             </div>
           </div>
