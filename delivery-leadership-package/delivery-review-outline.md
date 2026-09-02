@@ -1,4 +1,3 @@
-I would tighten the entire outline so it tells a leadership + technical growth story and highlights everything you accomplished beyond the minimum requirements.
 
 Delivery Review Outline
 Slide 1: Delivery Goal & Outcome
