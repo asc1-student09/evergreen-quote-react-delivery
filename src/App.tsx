@@ -28,7 +28,8 @@ function App() {
 
       <div className="rolling-banner">
     <span>
-    Patty Mengi FSE Capstone Project | First CI/CD Pipeline Successfully Deployed | Added Renters Coverage | React | TypeScript | GitHub Actions | GitHub Pages
+    Finding the right coverage is easy. Get a fast, personalized quote for auto, home, life, or renters insurance in minutes.
+    
     </span>
 </div>
 
