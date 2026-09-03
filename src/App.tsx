@@ -28,7 +28,7 @@ function App() {
 
       <div className="rolling-banner">
     <span>
-    Finding the right coverage is easy. Get a fast, personalized quote for auto, home, life, or renters insurance in minutes.
+    Protect your home, your car, and the people you love.
     
     </span>
 </div>
