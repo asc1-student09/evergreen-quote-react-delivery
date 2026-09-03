@@ -28,8 +28,7 @@ function App() {
 
       <div className="rolling-banner">
     <span>
-    Protect your home, your car, and the people you love.
-    
+    Life changes. Make sure your coverage keeps up. Protect what matters most with insurance tailored to your needs.
     </span>
 </div>
 
