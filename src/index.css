@@ -1,19 +1,19 @@
 :root {
-  /* Evergreen Insurance Theme */
+  /* Light Evergreen Theme */
 
-  --primary: #0f5e49;
-  --primary-dark: #0a4d3a;
+  --primary: #1b7f5f;
+  --primary-dark: #13664b;
 
-  --text: #1f2937;
-  --muted: #6b7280;
+  --text: #263238;
+  --muted: #667085;
 
   --surface: #ffffff;
-  --page-bg: #f8f8f7;
+  --page-bg: #fafaf9;
 
-  --border: #dce5df;
+  --border: #e4e7ec;
 
-  --sage: #e9f2ed;
-  --mint: #f3f8f5;
+  --sage: #eef5f1;
+  --mint: #f7fbf8;
 
   --form-padding: 24px;
 }
@@ -39,9 +39,9 @@ body {
 
   background: linear-gradient(
     90deg,
-    #083c2d 0%,
-    #0a4d3a 50%,
-    #083c2d 100%
+    #13664b 0%,
+    #1b7f5f 50%,
+    #13664b 100%
   );
 
   color: white;
@@ -64,19 +64,19 @@ body {
   opacity: 0.85;
 }
 
-/* Main Layout */
+/* Page Layout */
 
 .page {
   max-width: 1140px;
   margin: 0 auto;
-  padding: 32px 20px 60px;
+  padding: 40px 24px 60px;
 }
 
 /* Hero */
 
 .hero {
   text-align: center;
-  padding: 32px 16px 40px;
+  padding: 40px 16px;
 }
 
 .hero h1 {
@@ -88,11 +88,11 @@ body {
 
 .hero p {
   color: var(--muted);
-  font-size: 1.1rem;
+  font-size: 1.15rem;
   margin: 0;
 }
 
-/* Quote Section */
+/* Form + Sidebar Layout */
 
 .quote-form-section {
   display: grid;
@@ -107,12 +107,12 @@ body {
 .recent-quotes {
   background: var(--surface);
   border: 1px solid var(--border);
-  border-radius: 16px;
+  border-radius: 18px;
   padding: var(--form-padding);
 
   box-shadow:
-    0 1px 3px rgba(0, 0, 0, 0.05),
-    0 8px 20px rgba(0, 0, 0, 0.03);
+    0 1px 2px rgba(16, 24, 40, 0.04),
+    0 4px 8px rgba(16, 24, 40, 0.04);
 }
 
 .quote-form h2,
@@ -120,25 +120,26 @@ body {
   margin-top: 0;
   margin-bottom: 20px;
   color: var(--primary-dark);
-  font-size: 1.75rem;
+  font-size: 1.6rem;
 }
 
-/* Form */
+/* Form Fields */
 
 .quote-form label {
   display: block;
-  margin: 14px 0 6px;
+  margin: 16px 0 6px;
   font-weight: 600;
 }
 
 .quote-form select,
 .quote-form input {
   width: 100%;
-  padding: 12px;
+  padding: 12px 14px;
   border: 1px solid var(--border);
-  border-radius: 8px;
+  border-radius: 10px;
   font-size: 1rem;
   background: white;
+  transition: all 0.2s ease;
 }
 
 .quote-form select:focus,
@@ -146,22 +147,22 @@ body {
   outline: none;
   border-color: var(--primary);
 
-  box-shadow: 0 0 0 3px rgba(15, 94, 73, 0.15);
+  box-shadow:
+    0 0 0 3px rgba(27, 127, 95, 0.12);
 }
 
-/* Premium Estimate */
+/* Estimate Box */
 
 .estimate {
   display: flex;
-  align-items: baseline;
   justify-content: space-between;
+  align-items: center;
 
   margin: 24px 0 12px;
   padding: 18px;
 
-  background: var(--mint);
-
-  border-radius: 10px;
+  background: #f1f8f4;
+  border-radius: 12px;
 }
 
 .estimate-label {
@@ -175,7 +176,7 @@ body {
   color: var(--primary-dark);
 }
 
-/* Validation Messages */
+/* Messages */
 
 .message {
   min-height: 1.2em;
@@ -185,19 +186,24 @@ body {
 }
 
 .message.success {
-  color: #1b7f43;
+  color: #157347;
 }
 
-/* Button */
+/* Buttons */
 
 .primary-btn {
   width: 100%;
   padding: 14px;
 
   border: none;
-  border-radius: 8px;
+  border-radius: 10px;
 
-  background: var(--primary);
+  background: linear-gradient(
+    90deg,
+    #1b7f5f,
+    #248b69
+  );
+
   color: white;
 
   font-size: 1rem;
@@ -205,13 +211,11 @@ body {
 
   cursor: pointer;
 
-  transition:
-    background 0.2s ease,
-    transform 0.15s ease;
+  transition: all 0.2s ease;
 }
 
 .primary-btn:hover {
-  background: var(--primary-dark);
+  background: #13664b;
   transform: translateY(-1px);
 }
 
@@ -224,7 +228,7 @@ body {
 }
 
 .recent-list li {
-  padding: 14px 0;
+  padding: 12px 0;
   border-bottom: 1px solid var(--border);
 }
 
@@ -239,7 +243,7 @@ body {
 
 .recent-list .quote-premium {
   color: var(--primary-dark);
-  font-weight: 600;
+  font-weight: 700;
 }
 
 /* Footer */
@@ -257,12 +261,14 @@ body {
   width: 100%;
   overflow: hidden;
 
-  background: var(--primary);
+  background: #eef5f1;
+  border-bottom: 1px solid var(--border);
 
-  color: white;
+  color: var(--primary-dark);
   font-weight: 600;
 
   padding: 10px 0;
+
   white-space: nowrap;
 }
 
@@ -295,7 +301,7 @@ body {
 
   .site-header {
     flex-direction: column;
-    gap: 12px;
+    gap: 10px;
     text-align: center;
   }
 
